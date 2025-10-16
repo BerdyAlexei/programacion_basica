@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Fira Code";
+    src: url(./fira_code.ttf) format(tff);
+}
+
+* {
+    font-family: "Fira Code";
+}
+
+:root {
+    --background_color: rgb(96, 68, 68);
+    --font_color: rgb(231, 223, 223);
+    --contrast_gradient: linear-gradient(to right #ff9191, #ff0000);
+}
+
+body {
+    background-color: var(--background_color);
+    color: var(--font_color);
+}
