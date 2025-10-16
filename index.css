@@ -5,6 +5,8 @@
 
 * {
     font-family: "Fira Code";
+    justify-content: center;
+    align-items: center;
 }
 
 :root {
@@ -14,8 +16,11 @@
 }
 
 body {
+    height: 100%;
+    margin: 0;
     background-color: var(--background_color);
     color: var(--font_color);
+    display: flex;
 }
 
 .test-division {
