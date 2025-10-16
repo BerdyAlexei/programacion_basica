@@ -17,3 +17,10 @@ body {
     background-color: var(--background_color);
     color: var(--font_color);
 }
+
+.test-division {
+    justify-content: center;
+    align-content: center;
+    background-color: aliceblue;
+    border-radius: 20%;
+}
